@@ -1,0 +1,93 @@
+body {
+    font-family: 'Open sans', sans-serif;
+}
+#main {
+    padding:50px 100px;
+}
+#cart article {
+    border:solid 1px #cccccc;
+    padding:15px;
+}
+.description {
+    font-size: 80%;
+}
+#cart .price {
+    font-weight: bold;
+    color:#666;
+}
+#links {
+    margin-top: 30px;
+}
+#links a {
+    text-decoration: none;
+    color: Black;
+}
+#links a:hover {
+    color: #ffcc33;
+}
+
+#shop article {
+    width:150px;
+    height:200px;
+    display:inline-block;
+    border:solid 1px #cccccc;
+    padding:15px;
+    float:left;
+    position:relative;
+}
+.description {
+    font-size: 80%;
+}
+#shop .price {
+    margin-top:50px;
+    font-weight: bold;
+    color:#666;
+    text-align:center;
+}
+.cart-btn {
+    position:absolute;
+    bottom:20px;
+    text-align:center;
+    width:150px;
+}
+.cart-btn a,
+.cart-btn a:visited,
+.cart-btn a:link {
+    text-decoration: none;
+    color:Black;
+    padding:5px;
+    color:Black;
+    font-weight: bold;
+    font-size: 80%;
+}
+.add-cart a {
+    background-color: #ffcc33;
+}
+.remove-cart a {
+    background-color: #f077a9;
+}
+#nb-products {
+    float:right;
+    background-color: #5f5fd2;
+    color:White;
+    padding:20px;
+}
+#products-big-nb {
+    font-weight: bold;
+    font-size: 250%;
+    vertical-align: top;
+    text-align: center;
+}
+#products-label {
+    font-size:80%;
+    text-align:center;
+}
+#go-cart {
+    margin-top: 30px;
+}
+#go-cart a {
+    color: White;
+}
+#go-cart a:hover {
+    color: #ffcc33;
+}
